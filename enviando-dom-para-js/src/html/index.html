@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviando DOM para JS</title>
+    <script src="../dist/index.js"></script>
+</head>
+
+<body>
+    <h1>Enviando DOM para JS</h1>
+    <hr>
+    <h2>Registre-se!</h2>
+
+    <div>
+        <label for="name">Nome: </label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="password">Senha: </label>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="confirmPassword">Confirmar senha: </label>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+        <br><br>
+        <button onclick="register(this.parentNode)">Registrar</button>
+    </div>
+</body>
+
+</html>
