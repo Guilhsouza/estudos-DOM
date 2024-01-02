@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Devs</title>
+    <script type="module" src="../dist/index.js" defer></script>
+    <script type="module" src="../dist/createInput.js" defer></script>
+    <script type="module" src="../dist/createLabel.js" defer></script>
+    <script type="module" src="../dist/radioOfTimeExp.js" defer></script>
+</head>
+
+<body>
+    <h1>Cadastrando um Developer</h1>
+    <hr>
+
+    <h3><u>Dados do Desevolvedor</u></h3>
+
+    <form id="devInfos">
+        <label for="devName">Nome completo do Dev: </label>
+        <input type="text" id="devName" name="devName">
+        <br><br>
+
+        <label for="">
+            <h3><u>Tecnologias</u></h3>
+        </label>
+
+        <button id="addTools">Adicionar tecnologias</button>
+
+        <ul id="stacks">
+
+        </ul>
+
+        <button id="registerUser">Cadastrar Dev</button>
+    </form>
+
+
+</body>
+
+</html>
